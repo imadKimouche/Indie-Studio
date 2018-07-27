@@ -1,0 +1,21 @@
+//
+// EPITECH PROJECT, 2018
+// Indie studio
+// File description:
+// Controller interface
+//
+
+class IController
+{
+
+protected:
+	int _x;
+	int _y;
+	int _action;
+
+public:
+	virtual ~IController()=0;
+	virtual void update()=0;
+	virtual int getX()=0;
+	virtual int getY()=0;
+};

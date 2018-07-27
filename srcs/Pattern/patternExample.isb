@@ -1,0 +1,18 @@
+#Commentary should start with a #
+#First line contain the number of pattern actually stored
+5
+#A pattern is a 4*4 block composed by 16 digits
+#0 is empty, 1 is destroyables walls, 2 is undestroyables walls
+#3 is for spawn location
+#It is read starting in this order
+# 1 2 3 4
+# 5 6 7 8
+# 9 A B C
+# D E F G
+# 0000000000001112 is an exemple pattern containing 3 destroyables walls in D, E
+# and F. And an undestroyable wall in G.
+00000000011112222
+00112200112212121
+00000000000000000
+11111111111111111
+22222222222222222

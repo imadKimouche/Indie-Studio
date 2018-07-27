@@ -1,0 +1,14 @@
+//
+// EPITECH PROJECT, 2018
+// Indie Studio
+// File description:
+// Player Controller
+//
+
+class PlayerController: public IController
+{
+private:
+
+public:
+
+};
